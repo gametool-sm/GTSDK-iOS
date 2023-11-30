@@ -1,6 +1,0 @@
-framework module SMEncryption {
-  umbrella header "SMEncryption.h"
-
-  export *
-  module * { export * }
-}
