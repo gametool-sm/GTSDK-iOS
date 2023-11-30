@@ -1,5 +1,5 @@
 framework module SMEncryption {
-  umbrella header "SMEncryption.pch"
+  umbrella header "SMEncryption.h"
 
   export *
   module * { export * }
