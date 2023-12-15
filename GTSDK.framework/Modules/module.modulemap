@@ -1,6 +1,0 @@
-framework module GTSDK {
-  umbrella header "GTSDK.h"
-
-  export *
-  module * { export * }
-}
