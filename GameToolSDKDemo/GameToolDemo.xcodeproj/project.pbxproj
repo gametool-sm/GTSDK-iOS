@@ -14,18 +14,15 @@
 		4E3C19842B19B9F1009A06E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C19832B19B9F1009A06E1 /* Assets.xcassets */; };
 		4E3C19872B19B9F1009A06E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C19852B19B9F1009A06E1 /* LaunchScreen.storyboard */; };
 		4E3C198A2B19B9F1009A06E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C19892B19B9F1009A06E1 /* main.m */; };
-		4EBEEB602B1DED4100F710A0 /* GameToolSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBEEB5E2B1DE53900F710A0 /* GameToolSDK.framework */; };
-		4EBEEB612B1DED4100F710A0 /* GameToolSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4EBEEB5E2B1DE53900F710A0 /* GameToolSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4EBEEB622B1DED4100F710A0 /* Embed Frameworks */ = {
+		4E2FDA492B999DB8008715F9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4EBEEB612B1DED4100F710A0 /* GameToolSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +42,6 @@
 		4E3C19862B19B9F1009A06E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E3C19882B19B9F1009A06E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E3C19892B19B9F1009A06E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4EBEEB5E2B1DE53900F710A0 /* GameToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GameToolSDK.framework; sourceTree = "<group>"; };
 		544BA827911D84C9AF7A8155 /* Pods-GameToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameToolDemo.debug.xcconfig"; path = "Target Support Files/Pods-GameToolDemo/Pods-GameToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6388D2CEDFD8847680108C22 /* Pods_GameToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D0C5E74391A345D510E8871 /* Pods-GameToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameToolDemo.release.xcconfig"; path = "Target Support Files/Pods-GameToolDemo/Pods-GameToolDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EBEEB602B1DED4100F710A0 /* GameToolSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +79,6 @@
 		4E3C19762B19B9F0009A06E1 /* GameToolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4EBEEB5E2B1DE53900F710A0 /* GameToolSDK.framework */,
 				4E3C19772B19B9F0009A06E1 /* AppDelegate.h */,
 				4E3C19782B19B9F0009A06E1 /* AppDelegate.m */,
 				4E3C197A2B19B9F0009A06E1 /* SceneDelegate.h */,
@@ -128,7 +122,7 @@
 				4E3C19702B19B9F0009A06E1 /* Sources */,
 				4E3C19712B19B9F0009A06E1 /* Frameworks */,
 				4E3C19722B19B9F0009A06E1 /* Resources */,
-				4EBEEB622B1DED4100F710A0 /* Embed Frameworks */,
+				4E2FDA492B999DB8008715F9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
