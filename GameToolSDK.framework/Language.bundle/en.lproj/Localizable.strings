@@ -163,7 +163,7 @@
 
 "总计" =  "Total";
 
-"等待" =  "Waiting";
+"等待" =  "Wait";
 
 "结束" =  "Finish";
 
@@ -213,7 +213,7 @@
 
 "设置" =  "Settings";
 
-"点击增加触点且需要指向增加按钮" =  "Click to add touch";
+"点击增加触点" =  "Click to add touch";
 
 "暂停" =  "Pause";
 
@@ -281,7 +281,7 @@
  */
 "继续" =  "Continue";
 
-"定时执行" =  "Scheduled Run";
+"定时执行" =  "Run";
 
 "方案运行中，请暂停后再关闭" =  "Program running, pause before closing";
 
@@ -295,13 +295,13 @@
 
 "不可删除所有触点" =  "Cannot delete all touchpoints";
 
-"默认连点方案" =  "Default Clicking Scheme";
+"默认连点方案%ld" =  "Default Clicking Scheme%ld";
 
-"默认录制方案" =  "Default Recording Scheme";
+"默认录制方案%ld" =  "Default Recording Scheme%ld";
 
 "方案正在录制中，请结束录制后再操作" =  "Recording in progress, end before proceeding";
 
-"定时回放" =  "Scheduled Playback";
+"定时回放" =  "Playback";
 
 "隐藏按钮" =  "Hide Button";
 
@@ -318,3 +318,7 @@
 "确定要保存当前方案吗？" =  "Save current scheme?";
 
 "请输入密码" =  "Please enter password";
+
+"循环" =  "Loop";
+
+"在工具箱中可以重新唤起连点器" =  "Reinvoke clicker in toolbox";
