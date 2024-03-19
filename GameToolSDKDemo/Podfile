@@ -6,7 +6,7 @@ target 'GameToolDemo' do
   use_frameworks!
 #    pod 'GTBaseComponent'
 #    pod 'SMEncryption'
-#    pod 'GameToolSDK'
+    pod 'GameToolSDK'
 
   # Pods for GameToolDemo
 
