@@ -1,0 +1,324 @@
+/* 
+  Localizable.strings
+  GameToolSDK
+
+  Created by smwl on 2024/2/28.
+  
+*/
+
+/**
+ 悬浮球
+ */
+"拖拽至此可关闭" =  "Drag here to close";
+
+"取消" =  "Cancel";
+
+"确认" =  "Confirm";
+
+"下次不再弹出" =  "Do not show again";
+
+"翻转手机可唤出或隐藏悬浮球" =  "Rotate your phone to toggle the floating ball";
+
+"主题" =  "Theme";
+
+"浅色模式" =  "Light";
+
+"深色模式" =  "Dark";
+
+"跟随系统" =  "Follow System";
+
+"点击空白处关闭窗口" =  "Click blank space to close the window";
+
+/**
+ 加速器
+ */
+"加速器" =  "Speed controller";
+
+"加速器是一款合规的软件变速工具，在不影响软件性能的前提下可加快软件运行速度节约操作时间。" =  "Speed controller is a compliant speed tool that speeds up software without performance impact, saving operation time.";
+
+"开始探索" =  "Explore";
+
+"设置" =  "Settings";
+
+"极简模式" =  "Simplified Mode";
+
+"极简模式是一种快速切换加速器开关，加减速状态，倍率的模式。" =  "Simplified Mode quickly toggles accelerator switch, speed, and multiplier settings.";
+
+"长按快速打开加速器" =  "Long press to quickly open the speed controller";
+
+"下次不再弹出" =  "Do not show again";
+
+"我知道了" =  "Got it";
+
+"点击可快速暂停加速功能" =  "Click to quickly pause acceleration";
+
+"自动贴边" =  "Auto-attach to edge";
+
+"倍率快捷切换" =  "Multiplier quick toggle";
+
+"当前配置" =  "Current settings";
+
+"倍率设置" =  "Multiplier settings";
+
+"温馨提示" =  "Reminder";
+
+"确定要删除×%@的倍率吗？" =  "Delete the ×%@ multiplier?";
+
+"取消" =  "Cancel";
+
+"确认" =  "Confirm";
+
+"选择操作" =  "Select action";
+
+"隐藏悬浮球" =  "Hide";
+
+"关闭极简模式" =  "Exit";
+
+"温馨提示" =  "Reminder";
+
+"在【加速器】中可以重新开启极简模式" =  "Re-enable Simplified Mode in Speed controller";
+
+"下次不再弹出" =  "Do not show again";
+
+"取消" =  "Cancel";
+
+"关闭" =  "Close";
+
+/**
+ 连点器
+ */
+"连点器" =  "Auto-clicker";
+
+"连点器是一款模拟手动操作的辅助工具可用于执行一些重复度高的操作行为。" =  "Auto-clicker is a tool simulating manual operations, useful for repetitive tasks.";
+
+"开始探索" =  "Explore";
+
+"点击空白处关闭窗口" =  "Click blank space to close the window";
+
+"暂无可用方案，赶快去创建吧" =  "No solutions yet. Create one now!";
+
+"创建方案" =  "Create a solution";
+
+"选择方案类型" =  "Select solution type";
+
+"录制" =  "Record";
+
+"连点" =  "Auto-click";
+
+"设置" =  "Settings";
+
+"触点显示" =  "Touch Display";
+
+"运行触点" =  "Run Touch";
+
+"所有触点" =  "All Touches";
+
+"触点大小" =  "Touch Size";
+
+"仅生效于连点功能" =  "Effective only for auto-click";
+
+"小" =  "Small";
+
+"标准" =  "Standard";
+
+"大" =  "Large";
+
+"仿真执行模式" =  "Simulation Mode";
+
+"开启执行行为会插入随机值模拟真实点击行为，但是不影响实际点击效果" =  "Enabling execution adds random values for realistic clicks without affecting actual results";
+
+"启动" =  "Start";
+
+"改名" =  "Rename";
+
+"修改名称" =  "Modify Name";
+
+"取消" =  "Cancel";
+
+"确认" =  "Confirm";
+
+"请输入方案名称~" =  "Enter the plan name";
+
+"删除" =  "Delete";
+
+"确认要删除该方案？" =  "Confirm deletion of this plan?";
+
+"开始录制" =  "Start";
+
+"点击开始录制" =  "Click to start recording";
+
+"取消" =  "Cancel";
+
+"跳过倒计时" =  "Skip Countdown";
+
+"录制功能已开启，请点击录制悬浮窗开始录制" =  "Recording is enabled. Click the recording floating window to start";
+
+"退出录制" =  "Exit Recording";
+
+"结束" =  "Finish";
+
+"设置" =  "Settings";
+
+"回放" =  "Playback";
+
+"总计" =  "Total";
+
+"等待" =  "Wait";
+
+"结束" =  "Finish";
+
+"暂停" =  "Pause";
+
+"方案正在运行，请结束运行后再设置" =  "Plan is running. Finish before making changes";
+
+"结束运行" =  "Finish Run";
+
+"方案" =  "Plan";
+
+"方案名称" =  "Plan Name";
+
+"请输入方案名称~" =  "Enter plan name";
+
+"此处为名称为空时的默认内容" =  "nan";
+
+"总循环次数" =  "Total Loops";
+
+"无限" =  "Unlimited";
+
+"有限" =  "Limited";
+
+"请输入方案循环次数~" =  "Please enter plan loop count";
+
+"此处为循环次数为空的默认内容" =  "nan";
+
+"次" =  "Times";
+
+"循环间隔" =  "Loop Interval";
+
+"秒" =  "Seconds";
+
+"每次循环间隔的暂停时长" =  "Pause duration for each loop interval";
+
+"启动方式" =  "Start Method";
+
+"立即" =  "Immediately";
+
+"定时" =  "Scheduled";
+
+"倒计时" =  "Countdown";
+
+"执行" =  "Execute";
+
+"增加" =  "Add";
+
+"设置" =  "Settings";
+
+"点击增加触点" =  "Click to add touch";
+
+"暂停" =  "Pause";
+
+"方案正在运行，请暂停后再设置" =  "The plan is running. Please pause before setting";
+
+"暂停方案" =  "Pause Plan";
+
+"触点%d设置" =  "Touch%d Settings";
+
+"点击次数" =  "Click Count";
+
+"次" =  "Times";
+
+"按压时长" =  "Press Duration";
+
+"毫秒" =  "ms";
+
+"点击间隔" =  "Click Interval";
+
+"取消" =  "Cancel";
+
+"确认" =  "Confirm";
+
+"触点" =  "Touch";
+
+"方案" =  "Plan";
+
+"删除触点" =  "Delete Touch";
+
+"确认删除序号为%d的触点吗？" =  "Confirm deletion of touch at index %d?";
+
+"退出方案" =  "Exit Plan";
+
+"温馨提示" =  "Reminder";
+
+"当前方案未保存，是否确认退出？" =  "Current plan is unsaved. Confirm exit?";
+
+"取消" =  "Cancel";
+
+"退出" =  "Exit";
+
+"保存方案" =  "Save Plan";
+
+"确认要保存当前方案吗？" =  "Confirm save of current plan?";
+
+"保存" =  "Save";
+
+/**
+ toast
+ */
+"方案已删除" =  "Solution deleted";
+
+"修改成功" =  "Edit successful";
+
+"方案名称不能为空" =  "Plan name cannot be empty";
+
+"有限循环次数不能为空" =  "Limited loop count cannot be empty";
+
+"连点器方案数量已达最大限制" =  "Maximum limit of Auto-clicker plans reached";
+
+"最多可添加999个触点" =  "Up to 999 touches can be added";
+
+/**
+ 24.02.27补充
+ */
+"继续" =  "Continue";
+
+"定时执行" =  "Run";
+
+"方案运行中，请暂停后再关闭" =  "Program running, pause before closing";
+
+"方案录制中，请结束后再关闭" =  "Program recording, end before closing";
+
+"方案运行中，请结束运行后再关闭" =  "Program running, end execution before closing";
+
+"点击次数" =  "Click Count";
+
+"新触点默认在这生成" =  "New touchpoints generated here by default";
+
+"不可删除所有触点" =  "Cannot delete all touchpoints";
+
+"默认连点方案%ld" =  "Default Clicking Scheme%ld";
+
+"默认录制方案%ld" =  "Default Recording Scheme%ld";
+
+"方案正在录制中，请结束录制后再操作" =  "Recording in progress, end before proceeding";
+
+"定时回放" =  "Playback";
+
+"隐藏按钮" =  "Hide Button";
+
+"加速" =  "Accelerate";
+
+"不再提醒" =  "No further reminders";
+
+"工具设置" =  "Tool Settings";
+
+"启用" =  "Activate";
+
+"结束录制" =  "End";
+
+"确定要保存当前方案吗？" =  "Save current scheme?";
+
+"请输入密码" =  "Please enter password";
+
+"循环" =  "Loop";
+
+"在工具箱中可以重新唤起连点器" =  "Reinvoke clicker in toolbox";

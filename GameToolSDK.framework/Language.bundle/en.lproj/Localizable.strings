@@ -6,6 +6,8 @@
   
 */
 
+NSUserTrackingUsageDescription = "To ensure data security and privacy, we need authorization to access your device's IDFA. IDFA is anonymous and used only for data storage and management.";
+
 /**
  悬浮球
  */
@@ -101,7 +103,7 @@
 
 "选择方案类型" =  "Select solution type";
 
-"录制" =  "Record";
+"录制" =  "Recording";
 
 "连点" =  "Auto-click";
 
