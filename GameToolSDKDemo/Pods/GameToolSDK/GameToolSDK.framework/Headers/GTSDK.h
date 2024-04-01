@@ -7,6 +7,10 @@
 
 #import <Foundation/Foundation.h>
 
+//typedef void(^SuccesCallBack)(id  _Nullable responseObject);
+typedef void(^SuccesCallBack)(void);
+typedef void(^FailureCallBack)(NSString * _Nullable errorMsg);
+
 NS_ASSUME_NONNULL_BEGIN
 
 
@@ -38,7 +42,7 @@ typedef NS_ENUM(NSInteger, GTSDKStyles) {
  *  success：Callback for successful initialization
  *  failure：Callbacks that failed to initialize（Can try reinitializing）
  */
-+ (void)initWithAppKey:(NSString *)appkey style:(GTSDKStyles)style openDebugEnvironment:(BOOL)openDebugEnvironment andSuccess:(void (^)(void))success failure:(void (^)(NSString * errormsg))failure;
++ (void)initWithAppKey:(NSString *)appkey style:(GTSDKStyles)style openDebugEnvironment:(BOOL)openDebugEnvironment andSuccess:(SuccesCallBack)success failure:(FailureCallBack)failure;
 
 /**
  * login with userId, Called after successful initialization
@@ -48,7 +52,7 @@ typedef NS_ENUM(NSInteger, GTSDKStyles) {
  * failure：Callbacks that failed to login（Can try reinitializing）
  * Calling this method can save the user's connection scheme and acceleration rate, and the user's cached data can be directly read the next time it is started
  */
-+ (void)loginWithGameUserID:(NSString *)game_user_id andSuccess:(void (^)(void))success failure:(void (^)(NSString * errormsg))failure;
++ (void)loginWithGameUserID:(NSString *)game_user_id andSuccess:(SuccesCallBack)success failure:(FailureCallBack)failure;
 
 /**
  * Show floating pop-up window

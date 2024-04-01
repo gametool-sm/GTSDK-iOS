@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - GameToolSDK (0.2.7):
+  - GameToolSDK (0.2.6):
     - AFNetworking
     - lottie-ios
     - Masonry
@@ -36,7 +36,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  GameToolSDK: d7b7bb11483605d5468ce55a83c68760e14c8261
+  GameToolSDK: f67fb091d2b4fb3ddf5957aa799f96af3b8f503c
   lottie-ios: e047b1d2e6239b787cc5e9755b988869cf190494
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196

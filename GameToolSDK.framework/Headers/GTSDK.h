@@ -47,6 +47,16 @@ typedef NS_ENUM(NSInteger, GTSDKStyles) {
 /**
  * login with userId, Called after successful initialization
  * optional interface
+ * @param channel_game_user_id : user's unique identification in the game under that channel
+ * success：Callback for successful login
+ * failure：Callbacks that failed to login（Can try reinitializing）
+ * Calling this method can save the user's connection scheme and acceleration rate, and the user's cached data can be directly read the next time it is started
+ */
++ (void)loginWithChannelGameUserID:(NSString *)channel_game_user_id andSuccess:(SuccesCallBack)success failure:(FailureCallBack)failure;
+
+/**
+ * login with userId, Called after successful initialization
+ * optional interface
  * @param game_user_id : user's unique identification in the game
  * success：Callback for successful login
  * failure：Callbacks that failed to login（Can try reinitializing）
