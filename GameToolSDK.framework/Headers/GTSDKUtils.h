@@ -23,6 +23,9 @@ NS_ASSUME_NONNULL_BEGIN
 //获取SDK是默认状态还是班半自定义等
 + (NSString *)getGTSDKStyle;
 
+//获取SDK是否会调用渠道登录接口
++ (BOOL)isNeedChannelGameLogin;
+
 //获取SDK主题
 + (int)getSDKThemeType;
 //保存SDK主题
@@ -47,6 +50,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSInteger)getLogMode;
 //保存后门中日志等级
 + (void)saveLogMode:(NSInteger)mode;
+
+#pragma mark - floating window
+
+//判断是否展示过【点击空白区域关闭悬浮窗】提示
++ (BOOL)isShowClickBlankSpaceCloseWindowTip;
+//保存已展示【点击空白区域关闭悬浮窗】提示,因为只需要一次，所以也不用传值了
++ (void)saveShowClickBlankSpaceCloseWindowTip;
 
 #pragma mark - speed up
 

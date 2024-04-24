@@ -6,6 +6,8 @@
   
 */
 
+NSUserTrackingUsageDescription = "為了保障用戶數據安全和隱私，並提供精準服務，需要授權訪問設備IDFA。IDFA匿名，無法識別身份，僅用於數據存儲和管理。";
+
 /**
  悬浮球
  */
